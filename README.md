@@ -12,6 +12,13 @@
 
 This console application loads an English dictionary into a binary search tree, checks each word in a user-entered sentence, and suggests nearby dictionary words for misspellings.
 
+## Highlights
+
+- Case-insensitive binary-search-tree indexing for fast word lookup
+- Runtime reporting for dictionary size and tree height
+- Per-word validation for a user-provided sentence
+- Neighbor-based suggestions built from predecessor and successor traversal
+
 ## How It Works
 
 1. Reads `EN-US-Dictionary.txt` into a case-insensitive binary search tree.
